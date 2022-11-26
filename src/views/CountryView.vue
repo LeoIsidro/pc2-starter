@@ -21,10 +21,7 @@ export default {
 <template>
   <div class="country">
     <!--TODO: Poblar el HTML con las propiedades. Usar https://countryflagsapi.com para la bandera-->
-    <img
-      width="400"
-      height="400"
-    />
+    <img width="400" height="400" />
     <div class="traducciones">
       <h2>Traducciones</h2>
       <h3
