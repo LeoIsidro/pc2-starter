@@ -20,6 +20,7 @@ export default {
   methods: {
     setCapital(e) {
       //TODO: implementar. fija la capital del input.
+      this.capital = e.target.value;
     },
     adivinarCapital() {
       //TODO: implementar. verifica se la adivinanza es correcta.
