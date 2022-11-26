@@ -22,7 +22,7 @@ export default {
       const filtro = e.target.value;
       console.log(countries);
       this.countries = countries.filter((pais) =>
-        pais.name.toLowerCase().includes(filtro.toLowerCase())  
+        pais.name.toLowerCase().includes(filtro.toLowerCase())
       );
       console.log(countries);
     },

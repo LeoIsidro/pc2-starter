@@ -28,12 +28,11 @@ export default {
         this.puntaje++;
         this.country = countries[Math.floor(Math.random() * countries.length)];
         this.capital = "";
-      }
-      else {
+      } else {
         this.country = countries[Math.floor(Math.random() * countries.length)];
         this.capital = "";
       }
-   },
+    },
   },
 };
 </script>
